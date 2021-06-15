@@ -13,11 +13,19 @@ class EATATWORK_THEME {
   use Singleton;
 
   protected function __construct() {
-    // load class.
-    $this->set_hooks();
+    // load class
+
+    Assets::get_instance();
+
+    $this->setup_hooks();
   }
 
-  protected function set_hooks() {
-    // actions and filters
+  protected function setup_hooks() {
+    /**
+     * Actions
+     */
+
+    add_action( 'wp_enqueue_scripts', [ $this, 'register_styles' ]);
+    add_action( 'wp_enqueue_scripts', [ $this, 'register_scripts' ]);
   }
 }
