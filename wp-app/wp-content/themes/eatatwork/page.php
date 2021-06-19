@@ -1,6 +1,6 @@
 <?php
 /**
- * Main templage file
+ * Page template
  * 
  * @package Eatat.work
  */
@@ -8,9 +8,7 @@
   get_header();
 ?>
 
-<div class="content">
-  Content
-</div>
-  
+<div>Single Page</div>
+
 <?php 
   get_footer();
