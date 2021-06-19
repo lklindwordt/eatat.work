@@ -21,10 +21,4 @@ function eatatwork_get_theme_instance() {
 
 eatatwork_get_theme_instance();
 
-function eatatwork_enqueue_scripts() {
-
-}
-
-add_action( 'wp_enqueue_scripts', 'eatatwork_enqueue_scripts' );
-
 ?>
