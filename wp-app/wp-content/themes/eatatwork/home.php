@@ -27,23 +27,14 @@
           ?>
           <div class="row">
             <?php 
-              $index = 0;
-              $no_of_cols = 3;
               while ( have_posts() ) : the_post();
-                if ( $index % $no_of_cols === 0) {
-                  ?>
-                  <div class="col-lg-4 col-md-6 col-sm-12">
-                  <?php
-                }
+                ?>
 
-                get_template_part( 'partials/posts/preview' );
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                  <?php get_template_part( 'partials/posts/preview' ); ?>
+                </div>
 
-                $index++;
-                if ( $index !== 0  && $index % $no_of_cols === 0 ) {
-                  ?>
-                  </div>
-                  <?php
-                }
+                <?php
               endwhile;
             ?>
           </div>

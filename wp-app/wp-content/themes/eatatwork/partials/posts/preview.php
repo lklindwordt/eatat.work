@@ -7,7 +7,7 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class( 'card' ); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class( 'card shadow-sm' ); ?>>
   <?php
     get_template_part( 'partials/posts/header' );
   ?>

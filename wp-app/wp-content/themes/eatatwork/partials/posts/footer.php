@@ -5,7 +5,8 @@
  * @package Eatat.work
  */
 
-get_template_part( 'partials/posts/meta' );
-
 ?>
 
+<div class="card-footer">
+  <?php get_template_part( 'partials/posts/meta' ); ?>
+</div>

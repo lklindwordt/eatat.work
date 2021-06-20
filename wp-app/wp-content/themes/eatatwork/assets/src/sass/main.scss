@@ -50,3 +50,11 @@ img {
 .updated:not(.published) {
   display: none;
 }
+
+.post {
+  &.card {
+    .card-body {
+      height: 145px;
+    }
+  }
+}
