@@ -14,10 +14,10 @@ if ( $has_post_thumbnail ) {
     <?php
       the_post_custom_thumbnail(
         $the_post_id,
-        'featured-large',
+        'featured-thumbnail',
         [
-          'class' => 'card-img-top',
-          'sizes' => '(max-width: 350px) 350px, 233px',
+          'class' => 'card-img-top attachment-featured-thumbnail size-featured-image',
+          'sizes' => '(max-width: 414px) 414px, 276px',
         ]
       );
     ?>
