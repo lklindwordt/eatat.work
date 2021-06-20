@@ -18,7 +18,7 @@ if ( is_single() || is_page() ) {
   );
 } else {
   printf(
-    '<h3 class="article-title text-dard %1$s">%2$s</h3>',
+    '<h3 class="article-title mt-2 %1$s">%2$s</h3>',
     esc_attr( $heading_class ),
     wp_kses_post( get_the_title() )
   );

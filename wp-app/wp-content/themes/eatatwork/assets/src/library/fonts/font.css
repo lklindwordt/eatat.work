@@ -1,0 +1,13 @@
+/* la-belle-aurore-regular - latin */
+@font-face {
+  font-family: 'La Belle Aurore';
+  font-style: normal;
+  font-weight: 400;
+  src: url('la-belle-aurore-v11-latin/la-belle-aurore-v11-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('la-belle-aurore-v11-latin/la-belle-aurore-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('la-belle-aurore-v11-latin/la-belle-aurore-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('la-belle-aurore-v11-latin/la-belle-aurore-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('la-belle-aurore-v11-latin/la-belle-aurore-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('la-belle-aurore-v11-latin/la-belle-aurore-v11-latin-regular.svg#LaBelleAurore') format('svg'); /* Legacy iOS */
+}

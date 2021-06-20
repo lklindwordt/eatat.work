@@ -278,7 +278,7 @@ $position-values: (
 // Settings for the `<body>` element.
 
 $body-bg:                   $white !default;
-$body-color:                $gray-900 !default;
+$body-color:                $gray-600 !default;
 $body-text-align:           null !default;
 
 
@@ -463,11 +463,11 @@ $font-sizes: (
 
 // scss-docs-start headings-variables
 $headings-margin-bottom:      $spacer * .5 !default;
-$headings-font-family:        null !default;
+$headings-font-family:        'La Belle Aurore', cursive !default;
 $headings-font-style:         null !default;
 $headings-font-weight:        500 !default;
 $headings-line-height:        1.2 !default;
-$headings-color:              null !default;
+$headings-color:              $primary !default;
 // scss-docs-end headings-variables
 
 // scss-docs-start display-headings
