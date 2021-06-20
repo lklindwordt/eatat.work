@@ -16,8 +16,11 @@
   
   <?php
     get_template_part( 'partials/posts/content' );
-    get_template_part( 'partials/posts/footer' );
   ?>
   
   </a>
+
+  <?php 
+    get_template_part( 'partials/posts/footer' );
+  ?>
 </article>

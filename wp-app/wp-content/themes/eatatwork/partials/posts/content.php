@@ -22,6 +22,4 @@ if ( is_single() || is_page() ) {
     wp_kses_post( get_the_title() )
   );
 }
-
-eatatwork_posted_on();
 ?>
