@@ -8,19 +8,11 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class( 'card shadow-sm' ); ?>>
-  <?php
-    get_template_part( 'partials/posts/header' );
-  ?>
+  <?php get_template_part( 'partials/posts/header' ); ?>
   
   <a href="<?php echo esc_url( get_the_permalink() ); ?>" class="card-body">
-  
-  <?php
-    get_template_part( 'partials/posts/content' );
-  ?>
-  
+    <?php get_template_part( 'partials/posts/content' ); ?>
   </a>
 
-  <?php 
-    get_template_part( 'partials/posts/footer' );
-  ?>
+  <?php get_template_part( 'partials/posts/footer' ); ?>
 </article>

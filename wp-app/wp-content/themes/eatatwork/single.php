@@ -31,8 +31,10 @@
 
             ?>
 
-          <div class="prev-link"><?php previous_post_link(); ?></div>
-				  <div class="next-link"><?php next_post_link(); ?></div>
+          <div class="d-flex">
+            <div class="prev-link flex-grow-1"><?php previous_post_link(); ?></div>
+            <div class="next-link"><?php next_post_link(); ?></div>
+          </div>
         </div>
 
         <?php

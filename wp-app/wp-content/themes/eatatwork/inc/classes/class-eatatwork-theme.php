@@ -54,6 +54,7 @@ class EATATWORK_THEME {
      * Register image sizes
      */
     add_image_size( 'featured-thumbnail', 414, 276, true );
+    add_image_size( 'featured-full', 1296, auto, false );
 
     add_theme_support( 'customize-selective-refresh-widgets' );
 
