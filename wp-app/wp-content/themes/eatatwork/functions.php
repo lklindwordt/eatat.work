@@ -14,6 +14,7 @@ if ( !defined( 'EATATWORK_DIR_URI' )) {
 }
 
 require_once EATATWORK_DIR_PATH . '/inc/helpers/autoloader.php';
+require_once EATATWORK_DIR_PATH . '/inc/helpers/template-tags.php';
 
 function eatatwork_get_theme_instance() {
   \EATATWORK_THEME\Inc\EATATWORK_THEME::get_instance();
