@@ -10,8 +10,14 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class( 'card' ); ?>>
   <?php
     get_template_part( 'partials/posts/header' );
-    get_template_part( 'partials/posts/meta' );
+  ?>
+  
+  <a href="<?php echo esc_url( get_the_permalink() ); ?>" class="card-body">
+  
+  <?php
     get_template_part( 'partials/posts/content' );
     get_template_part( 'partials/posts/footer' );
   ?>
+  
+  </a>
 </article>
