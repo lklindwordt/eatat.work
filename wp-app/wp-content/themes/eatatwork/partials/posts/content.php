@@ -25,6 +25,8 @@ if ( is_single() || is_page() ) {
 }
 
 if ( is_single() ) {
+  get_template_part( 'partials/posts/meta' );
+
   the_content(
     sprintf(
       wp_kses(
@@ -38,6 +40,11 @@ if ( is_single() ) {
       the_title( '<span class="screen-reader-text">"', '"</span>', false )
     )
   );
+
+  wp_link_pages([
+    'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'eatatwork' ),
+    'after' => '</div>',
+  ]);
 } else {
   eatatwork_the_excerpt( 100 );
 }

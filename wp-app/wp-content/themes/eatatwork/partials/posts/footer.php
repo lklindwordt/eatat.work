@@ -5,7 +5,7 @@
  * @package Eatat.work
  */
 
-eatatwork_posted_on();
-eatatwork_posted_by()
+get_template_part( 'partials/posts/meta' );
+
 ?>
 
