@@ -1,5 +1,8 @@
 // Import js widgets
 // import './folder'
 
-// Import Images
+// Import styles
+import '../sass/main.scss';
+
+// Import images
 import '../img/truck.png';
