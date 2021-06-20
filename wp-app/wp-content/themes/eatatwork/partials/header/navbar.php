@@ -12,7 +12,36 @@ $header_menus = wp_get_nav_menu_items( $header_menu_id );
 
 ?>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div id="nav-trigger" class="nav-trigger open">
+  <span class="line"></span>
+  <span class="line"></span>
+  <span class="line"></span>
+</div>
+
+<div id="nav-layer" class="overlay hide">
+
+  <?php
+    if ( !empty($header_menus ) && is_array( $header_menus )) {
+      ?>
+      <nav class="nav flex-column">
+        <?php
+          foreach( $header_menus as $menu_item ) {
+            if ( !$menu_item->menu_item_parent ) {
+              ?>
+                <a class="nav-link" href="<?php echo esc_url( $menu_item->url ); ?>">
+                  <?php echo esc_html( $menu_item->title ); ?>
+                </a>
+              <?php
+            }
+          }
+        ?>
+      </nav>
+      <?php
+    }
+  ?>
+</div>
+
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container">
     <?php
       if ( function_exists('the_custom_logo' )) {
@@ -73,4 +102,4 @@ $header_menus = wp_get_nav_menu_items( $header_menu_id );
       ?>
     </div>
   </div>
-</nav>
+</nav> -->
