@@ -52,6 +52,8 @@
       else :
         get_template_part( 'partials/posts/none' );
       endif;
+
+      eatatwork_pagination();
      ?>
   </main>
 </div>
