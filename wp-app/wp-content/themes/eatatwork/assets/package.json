@@ -15,7 +15,7 @@
   "author": "Lars Klindwordt",
   "license": "MIT",
   "private": true,
-  "browserlist": [
+  "browserslist": [
     "defaults"
   ],
   "devDependencies": {
@@ -34,5 +34,8 @@
     "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack": "^5.39.1",
     "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
   }
 }
