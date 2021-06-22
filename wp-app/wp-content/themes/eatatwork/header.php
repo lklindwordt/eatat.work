@@ -18,13 +18,13 @@
 <body <?php body_class(); ?>>
 
 <?php
-if ( function_exists( 'wp_body_open' ) ) {
-	wp_body_open();
-}
+  if ( function_exists( 'wp_body_open' ) ) {
+    wp_body_open();
+  }
+
+  get_template_part( 'template-parts/header/site-header' );
 ?>
 
-<div id="page" class="site">
-  <header id="mainheader" class="site-header" role="banner">
-    <?php get_template_part( 'partials/header/navbar' ); ?>
-  </header>
-  <div id="content" class="site-content">
+<div id="content" class="site-content">
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">

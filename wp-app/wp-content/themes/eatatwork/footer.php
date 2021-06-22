@@ -7,7 +7,11 @@
 
 ?>
 
-<footer class="footer mt-4">
+    </main><!-- #main -->
+  </div><!-- #primary -->
+</div><!-- #content -->
+
+<footer class="footer mt-4 p-4">
   <div class="container">
     <div class="row">
       <div class="col-lg-4 col-md-4 col-sm-12">
@@ -23,8 +27,6 @@
     </div>
   </div>
 </footer>
-</div>
-</div>
 
 <?php wp_footer(); ?>
 
