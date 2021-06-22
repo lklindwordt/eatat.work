@@ -6,11 +6,12 @@
  */
 
   get_header();
-?>
 
-<div class="content">
-  Content
-</div>
-  
-<?php 
+  while ( have_posts() ) :
+		the_post();
+
+		get_template_part( 'template-parts/content/content');
+
+	endwhile;
+ 
   get_footer();

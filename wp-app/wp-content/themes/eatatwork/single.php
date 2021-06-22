@@ -7,13 +7,12 @@
 
   get_header();
 ?>
-
-<div id="primary">
-  <main id="main" class="site-main mt-5" role="main">
     <?php
       if ( have_posts() ) :
+        get_template_part( 'template-parts/content/content', 'single' );
         ?>
-        <div class="container">
+        
+        <!-- <div class="container">
           <?php
             if ( is_home() && !is_front_page() ) {
               ?>  
@@ -35,15 +34,13 @@
             <div class="prev-link flex-grow-1"><?php previous_post_link(); ?></div>
             <div class="next-link"><?php next_post_link(); ?></div>
           </div>
-        </div>
+        </div> -->
 
         <?php
       else :
         get_template_part( 'partials/posts/none' );
       endif;
      ?>
-  </main>
-</div>
   
 <?php 
   

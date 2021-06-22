@@ -10,14 +10,14 @@ $has_post_thumbnail = get_the_post_thumbnail( $the_post_id );
 
 if ( $has_post_thumbnail ) {
   if ( is_single() ) {
-    the_post_custom_thumbnail(
-      $the_post_id,
-      'featured-full',
-      [
-        'class' => 'card-img-top attachment-featured-full size-featured-image',
-        'sizes' => '(max-width: 1296px) 1296px, auto',
-      ]
-    );
+    // the_post_custom_thumbnail(
+    //   $the_post_id,
+    //   'featured-full',
+    //   [
+    //     'class' => 'card-img-top attachment-featured-full size-featured-image',
+    //     'sizes' => '(max-width: 1296px) 1296px, auto',
+    //   ]
+    // );
   } else {
     ?>
     <a class="card-img-top" href="<?php echo esc_url( get_the_permalink( $the_post_id ) ); ?>">

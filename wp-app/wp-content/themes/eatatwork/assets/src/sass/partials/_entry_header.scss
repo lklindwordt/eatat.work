@@ -5,3 +5,9 @@
   justify-content: center;
   align-items: center;
 }
+
+.home, .single {
+  .entry-header-img {
+    max-height: 100vh;
+  }
+}
