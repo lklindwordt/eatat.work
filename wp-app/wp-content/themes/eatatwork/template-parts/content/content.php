@@ -48,6 +48,10 @@ $has_post_thumbnail = get_the_post_thumbnail( $the_post_id );
 		<?php
 		the_content();
 
+    if (get_the_ID() == 42) {
+      get_template_part( 'template-parts/content/content-form' );
+    }
+
 		wp_link_pages(
 			array(
 				'before'   => '<nav class="page-links" aria-label="' . esc_attr__( 'Page', 'twentytwentyone' ) . '">',
