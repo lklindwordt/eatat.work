@@ -102,3 +102,29 @@
     }
   }
 }
+
+#social-nav {
+  margin: 0;
+  padding: 0;
+
+  li {
+    list-style: none;
+    margin-right: 1rem;
+    display: inline;
+
+    svg {
+      height: 39px;
+      width: 39px;
+
+      path { 
+        fill: $primary; 
+      }
+    }
+  }
+}
+
+#Email {
+  path:last-child {
+    fill: $white;
+  }
+}

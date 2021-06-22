@@ -6,6 +6,9 @@ import '../sass/main.scss';
 
 // Import images
 import '../img/truck.png';
+import '../img/facebook.svg';
+import '../img/instagram.svg';
+import '../img/mail.svg';
 
 /* Navigation */
 const nav_trigger = document.getElementById('nav-trigger');
