@@ -5438,31 +5438,26 @@ function iis7_supports_permalinks() {
 function validate_file( $file, $allowed_files = array() ) {
 	// `../` on its own is not allowed:
 	if ( '../' === $file ) {
-    print_r("Error1");
 		return 1;
 	}
 
 	// More than one occurence of `../` is not allowed:
 	if ( preg_match_all( '#\.\./#', $file, $matches, PREG_SET_ORDER ) && ( count( $matches ) > 1 ) ) {
-		print_r("Error2");
-    return 1;
+		return 1;
 	}
 
 	// `../` which does not occur at the end of the path is not allowed:
 	if ( false !== strpos( $file, '../' ) && '../' !== mb_substr( $file, -3, 3 ) ) {
-		print_r("Error3");
-    return 1;
+		return 1;
 	}
 
 	// Files not in the allowed file list are not allowed:
 	if ( ! empty( $allowed_files ) && ! in_array( $file, $allowed_files, true ) ) {
-    print_r("Error4");
 		return 3;
 	}
 
 	// Absolute Windows drive paths are not allowed:
 	if ( ':' === substr( $file, 1, 1 ) ) {
-    print_r("Error5");
 		return 2;
 	}
 
