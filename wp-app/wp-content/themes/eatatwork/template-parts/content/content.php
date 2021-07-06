@@ -48,8 +48,13 @@ $has_post_thumbnail = get_the_post_thumbnail( $the_post_id );
 		<?php
 		the_content();
 
-    if (get_the_ID() == 42) {
-      get_template_part( 'template-parts/content/content-form' );
+    switch (get_the_ID()) {
+      case 35:
+        get_template_part( 'template-parts/content/content-coffeetruck-form' );
+        break;
+      case 42:
+        get_template_part( 'template-parts/content/content-form' );
+        break;
     }
 
 		wp_link_pages(
