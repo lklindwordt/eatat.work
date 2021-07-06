@@ -9,6 +9,7 @@ import '../img/truck.png';
 import '../img/facebook.svg';
 import '../img/instagram.svg';
 import '../img/mail.svg';
+import '../img/bkr-unterwegs-logo.png';
 
 /* Navigation */
 const nav_trigger = document.getElementById('nav-trigger');

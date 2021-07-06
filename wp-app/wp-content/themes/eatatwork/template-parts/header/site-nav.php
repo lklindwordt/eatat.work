@@ -19,7 +19,9 @@ $header_menus = wp_get_nav_menu_items( $header_menu_id );
 </div>
 
 <div id="nav-layer" class="overlay hide">
-
+  <div class="d-flex justify-content-center p-4">
+    <img src="/wp-content/themes/eatatwork/assets/build/src/img/bkr-unterwegs-logo.png">
+  </div>
   <?php
     if ( !empty($header_menus ) && is_array( $header_menus )) {
       ?>
