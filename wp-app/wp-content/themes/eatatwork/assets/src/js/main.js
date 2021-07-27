@@ -11,6 +11,9 @@ import '../img/instagram.svg';
 import '../img/mail.svg';
 import '../img/bkr-unterwegs-logo.png';
 
+// Import Movies
+// import '../mov/bkr-unterwegs.mov';
+
 /* Navigation */
 const nav_trigger = document.getElementById('nav-trigger');
 const nav_layer = document.getElementById("nav-layer");

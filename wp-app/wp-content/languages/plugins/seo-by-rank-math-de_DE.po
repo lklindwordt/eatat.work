@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Rank Math SEO – Best SEO Plugin For WordPress To Increase Your SEO Traffic - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-06-30 16:24:44+0000\n"
+"PO-Revision-Date: 2021-07-15 14:26:53+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,10 @@ msgstr ""
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: de\n"
 "Project-Id-Version: Plugins - Rank Math SEO – Best SEO Plugin For WordPress To Increase Your SEO Traffic - Stable (latest release)\n"
+
+#: includes/admin/wizard/views/ready.php:49
+msgid "Know more about the PRO version"
+msgstr "Erfahre mehr über die PRO Version"
 
 #: rank-math.php:465
 msgid "This action is IRREVERSIBLE."
@@ -168,7 +172,7 @@ msgstr "Da du einen NGINX-Server verwendest, musst du möglicherweise den folgen
 msgid "Enable Cookieless Tracking. Want to make Analytics GDPR ready? %s"
 msgstr "Aktiviere Cookieless Tracking. Möchtest du die Analysen Datenschutzkonform machen? %s"
 
-#: includes/admin/wizard/views/ready.php:57
+#: includes/admin/wizard/views/ready.php:51
 msgid "Subscribe to Our YouTube Channel"
 msgstr "Abonniere unseren YouTube-Kanal"
 
@@ -185,7 +189,6 @@ msgid "Advanced Schema, Analytics and much more..."
 msgstr "Erweiterte Schema, Analytics und vieles mehr..."
 
 #: includes/admin/views/dashboard-help.php:41
-#: includes/admin/wizard/views/ready.php:55
 msgid "Upgrade to PRO"
 msgstr "Upgrade auf PRO"
 
@@ -1666,6 +1669,7 @@ msgid "Rank Math generates the default Sitemaps only and WPML takes care of the 
 msgstr "Rank Math erzeugt nur die Standard-Sitemaps, WPML kümmert sich um den Rest. Wenn ein Suchmaschinen-Crawler einen Beitrag oder eine Seite besucht, kann er über den hreflang-Tag die übersetzten Seiten finden. Das ist einer der von Google empfohlenen Methoden. Bitte %s"
 
 #. translators: %1$s: thing, %2$s: Learn more link.
+#. translators: %1$s: thing, %2$s: Learn more link.
 #: includes/modules/sitemap/class-admin.php:131
 #: includes/modules/sitemap/class-admin.php:189
 msgid "Change Sitemap settings of %1$s. %2$s."
@@ -1690,11 +1694,11 @@ msgstr "WordPress Dashboard > Einstellungen > Permalinks > Produkt-Permalinks Be
 msgid "Choose how you want Rank Math to handle your WooCommerce SEO. %s."
 msgstr "Wähle, wie Rank Math dein WooCommerce-SEO behandeln soll. %s."
 
-#: includes/modules/status/class-error-log.php:153
+#: includes/modules/status/class-error-log.php:154
 msgid "The error log cannot be retrieved: Error log file is too large."
 msgstr "Das Fehler-Log kann nicht abgerufen werden: die Fehler-Log-Datei ist zu groß."
 
-#: includes/modules/status/class-error-log.php:142
+#: includes/modules/status/class-error-log.php:143
 msgid "The error log cannot be retrieved."
 msgstr "Das Fehler-Log kann nicht abgerufen werden."
 
@@ -2290,6 +2294,7 @@ msgid "Large"
 msgstr "Groß"
 
 #. translators: 1. Review Schema documentation link
+#. translators: 1. Review Schema documentation link
 #: includes/modules/analytics/class-analytics.php:559
 #: includes/modules/analytics/class-analytics.php:565
 msgid "here"
@@ -2662,7 +2667,7 @@ msgstr "bbPress"
 msgid "I already did. Please don't show this message again."
 msgstr "Das habe ich bereits. Bitte zeige diese Nachricht nicht erneut an."
 
-#: includes/admin/class-import-export.php:378
+#: includes/admin/class-import-export.php:382
 msgid "Settings could not be imported: Upload failed."
 msgstr "Die Einstellungen konnten nicht importiert werden: Upload fehlgeschlagen."
 
@@ -2872,6 +2877,7 @@ msgstr " Das Plugin %1$s wird automatisch deaktiviert, um Konflikte zu vermeiden
 msgid "Last Modified"
 msgstr "Zuletzt geändert"
 
+#. translators: xsl value count
 #. translators: xsl value count
 #: includes/modules/sitemap/sitemap-xsl.php:161
 #: includes/modules/sitemap/sitemap-xsl.php:297
@@ -3096,6 +3102,7 @@ msgid "Enable Link Suggestions meta box for this post type, along with the Pilla
 msgstr "Aktiviere das Metafeld Linkvorschläge für diesen Beitragstyp zusammen mit der Funktion Säuleninhalt."
 
 #. translators: post type name
+#. translators: post type name
 #: includes/settings/titles/post-types.php:202
 #: includes/settings/titles/post-types.php:219
 msgid "%s Robots Meta"
@@ -3197,6 +3204,7 @@ msgstr "Einzelne %s Beschreibung"
 msgid "Description for %s archives"
 msgstr "Beschreibung für %s Archive"
 
+#. translators: taxonomy name
 #. translators: taxonomy name
 #: includes/settings/titles/taxonomies.php:69
 #: includes/settings/titles/taxonomies.php:86
@@ -4181,12 +4189,24 @@ msgid "Public Taxonomies"
 msgstr "Öffentliche Taxonomien"
 
 #. translators: Link to kb article
+#. translators: Link to kb article
+#. translators: Link to kb article
+#. translators: Link to kb article
 #. translators: Link to KB article
 #. translators: Redirection page url
+#. translators: Link to KB article
+#. translators: Link to KB article
 #. translators: 1. Link to KB article 2. Link to redirection setting scree
+#. translators: Link to kb article
+#. translators: Link to kb article
+#. translators: Link to kb article
+#. translators: Link to kb article
+#. translators: Link to kb article
 #. translators: %s is a Learn More link to the documentation.
 #. translators: Learn more link.
 #. translators: %1$s: thing, %2$s: Learn more link.
+#. translators: %1$s: thing, %2$s: Learn more link.
+#. translators: Link to kb article
 #: includes/admin/class-option-center.php:62
 #: includes/admin/class-option-center.php:69
 #: includes/admin/class-option-center.php:75
@@ -5802,7 +5822,7 @@ msgstr "SEO-Einstellungen für diese Archivseite bearbeiten"
 msgid "Edit Homepage SEO Settings"
 msgstr "SEO-Einstellungen der Startseite bearbeiten"
 
-#: includes/admin/wizard/views/ready.php:51
+#: includes/admin/wizard/views/ready.php:58
 msgid "Rank Math Knowledge Base"
 msgstr "Rank Math Wissensdatenbank"
 
@@ -6505,6 +6525,7 @@ msgid "Your Site"
 msgstr "Deine Seite"
 
 #. translators: Google article snippet doc link
+#. translators: Google article snippet doc link
 #: includes/admin/wizard/class-schema-markup.php:75
 #: includes/settings/titles/post-types.php:180
 msgid "Google does not allow Person as the Publisher for articles. Organization will be used instead. You can read more about this <a href=\"%s\" target=\"_blank\">here</a>."
@@ -6639,6 +6660,10 @@ msgstr "Entferne das Präfix aus der Kategorie-URL."
 msgid "Automatically add <code>target=\"_blank\"</code> attribute for external links appearing in your posts, pages, and other post types to make them open in a new browser tab or window. The attribute is dynamically applied when the content is displayed, and the stored content is not changed."
 msgstr "Füge automatisch das Attribut <code>target=\"_blank\"</code> für externe Links hinzu, die in deinen Beiträgen, Seiten und anderen Beitragstypen erscheinen, damit sie in einem neuen Browser-Tab oder Fenster geöffnet werden. Das Attribut wird dynamisch angewendet, wenn der Inhalt angezeigt wird, und der gespeicherte Inhalt wird nicht geändert."
 
+#: includes/modules/seo-analysis/seo-analysis-tests.php:120
+msgid "XML sitemaps are a special type of text file that tells search engines about the structure of your site. They're a list of all the resources (pages and files) you would like the search engine to index. You can assign different priorities, so certain pages will be crawled first. Before XML sitemaps, search engines were limited to indexing the content they could find by following links. That's still an important feature for search engine spiders, but XML sitemaps have made it easier for content creators and search engines to collaborate."
+msgstr "XML-Sitemaps sind eine spezielle Art von Textdatei, die Suchmaschinen über die Struktur Ihrer Website informiert. Es handelt sich um eine Liste aller Ressourcen (Seiten und Dateien), die die Suchmaschine indizieren soll. du kannst verschiedene Prioritäten vergeben, so dass bestimmte Seiten zuerst durchsucht werden. Vor XML-Sitemaps beschränkten sich Suchmaschinen auf die Indizierung von Inhalten, die sie über folgende Links finden konnten. Das ist immer noch ein wichtiges Feature für Suchmaschinen-Spider, aber XML-Sitemaps haben es für Inhaltsersteller und Suchmaschinen einfacher gemacht, zusammenzuarbeiten."
+
 #: includes/modules/sitemap/settings/post-types.php:46
 msgid "Insert custom field (post meta) names which contain image URLs to include them in the sitemaps. Add one per line."
 msgstr "Füge benutzerdefinierte Feldnamen (Post-Meta-Namen) ein, die Bild-URLs enthalten, um sie in die Sitemaps aufzunehmen. Füge einen pro Zeile hinzu."
@@ -6651,17 +6676,13 @@ msgstr "Füge Archivseiten von Begriffen ein, denen keine Beiträge zugeordnet s
 msgid "Include this post type in the XML sitemap."
 msgstr "Füge diesen Beitrags-Typ in die XML-Sitemap ein."
 
-#: includes/helpers/class-choices.php:496
-msgid "End With"
-msgstr "Endet mit"
-
-#: includes/modules/seo-analysis/seo-analysis-tests.php:120
-msgid "XML sitemaps are a special type of text file that tells search engines about the structure of your site. They're a list of all the resources (pages and files) you would like the search engine to index. You can assign different priorities, so certain pages will be crawled first. Before XML sitemaps, search engines were limited to indexing the content they could find by following links. That's still an important feature for search engine spiders, but XML sitemaps have made it easier for content creators and search engines to collaborate."
-msgstr "XML-Sitemaps sind eine spezielle Art von Textdatei, die Suchmaschinen über die Struktur Ihrer Website informiert. Es handelt sich um eine Liste aller Ressourcen (Seiten und Dateien), die die Suchmaschine indizieren soll. du kannst verschiedene Prioritäten vergeben, so dass bestimmte Seiten zuerst durchsucht werden. Vor XML-Sitemaps beschränkten sich Suchmaschinen auf die Indizierung von Inhalten, die sie über folgende Links finden konnten. Das ist immer noch ein wichtiges Feature für Suchmaschinen-Spider, aber XML-Sitemaps haben es für Inhaltsersteller und Suchmaschinen einfacher gemacht, zusammenzuarbeiten."
-
 #: includes/modules/seo-analysis/seo-analysis-tests.php:121
 msgid "If you don't have an XML sitemap, the best option is to install a plugin that creates sitemaps for you. That way you'll know the sitemap will always be up-to-date. Plugins can also automatically ping the search engines when the XML file is updated. The Rank Math WordPress plugin gives you complete control over your site's XML sitemaps. You can control the settings for each page as you write or edit it, and Rank Math will ping Google as soon as you submit your edits. This results in fast crawls and indexing."
 msgstr "Wenn du keine XML-Sitemap hast, ist die beste Option, ein Plugin zu installieren, das Sitemaps für dich erstellt. Auf diese Weise weisst du, dass die Sitemap immer aktuell ist. Plugins können auch automatisch die Suchmaschinen pingen, wenn die XML-Datei aktualisiert wird. Das Rank Math WordPress Plugin gibt dir die volle Kontrolle über die XML-Sitemaps deiner Website. Du kannst die Einstellungen für jede Seite steuern, während du sie schreibst oder bearbeitest, und Rank Math wird Google an pingen, sobald deine Änderungen übermittelt sind. Dies führt zu schnellen Crawls und Indexierungen."
+
+#: includes/helpers/class-choices.php:496
+msgid "End With"
+msgstr "Endet mit"
 
 #: includes/settings/titles/homepage.php:63
 msgid "Select custom robots meta for homepage, such as <code>nofollow</code>, <code>noarchive</code>, etc. Otherwise the default meta will be used, as set in the Global Meta tab."
@@ -7066,7 +7087,7 @@ msgstr "Deine Website ist nun optimiert."
 msgid "Your site is ready!"
 msgstr "Deine Seite ist fertig!"
 
-#: includes/admin/wizard/views/ready.php:48
+#: includes/admin/wizard/views/ready.php:55
 msgid "Join FREE Facebook Group"
 msgstr "Werde Mitglied der KOSTENLOSEN Facebook-Gruppe"
 
@@ -7202,6 +7223,7 @@ msgstr "Einstellungsdatei"
 msgid "Author's user ID of the current post, page or author archive."
 msgstr "Benutzer-ID des Autors des aktuellen Posts, der Seite oder des Autorenarchivs."
 
+#. translators: Link to learn about import export panel KB article
 #. translators: Link to learn about import export panel KB article
 #: includes/admin/views/import-export/import-export-panel.php:17
 #: includes/admin/views/import-export/plugins-panel.php:22
@@ -7571,7 +7593,7 @@ msgstr "Speichern"
 #: includes/modules/analytics/views/email-reports/header.php:38
 #: includes/modules/role-manager/class-members.php:47
 #: includes/modules/role-manager/class-user-role-editor.php:58
-#: includes/modules/schema/class-blocks.php:66
+#: includes/modules/schema/class-blocks.php:68
 #: includes/modules/status/class-system-status.php:122
 #: assets/admin/js/blocks.js:1 assets/admin/js/divi.js:1
 #: assets/admin/js/elementor.js:1 assets/admin/js/gutenberg.js:1
@@ -7758,7 +7780,7 @@ msgstr "Dieser Tab enthält grundlegende Einstellungen."
 msgid "General"
 msgstr "Allgemein"
 
-#: includes/admin/class-import-export.php:354
+#: includes/admin/class-import-export.php:358
 msgid "No settings found to be imported."
 msgstr "Keine Einstellungen zum Importieren gefunden."
 
@@ -8041,7 +8063,7 @@ msgstr "Bist du sicher, dass du alle Spuren des Plugins beseitigen willst?"
 msgid "Are you sure you want to delete this backup?"
 msgstr "Bist du sicher, dass du dieses Backup löschen möchtest?"
 
-#: includes/admin/class-import-export.php:350
+#: includes/admin/class-import-export.php:354
 msgid "Settings successfully imported. Your old configuration has been saved as a backup."
 msgstr "Einstellungen erfolgreich importiert. Deine alte Konfiguration wurde als Backup gespeichert."
 
@@ -8084,8 +8106,8 @@ msgstr "Kalorien: "
 msgid "Price range: "
 msgstr "Preisspanne: "
 
-#: includes/admin/class-import-export.php:368
-#: includes/admin/class-import-export.php:373
+#: includes/admin/class-import-export.php:372
+#: includes/admin/class-import-export.php:377
 msgid "Settings could not be imported:"
 msgstr "Einstellungen konnten nicht importiert werden:"
 
